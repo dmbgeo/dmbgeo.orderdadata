@@ -1,0 +1,24 @@
+{
+  "name": "kstkn/dadata",
+  "description": "Dadata API client (https://dadata.ru)",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/kstkn/dadata/issues",
+    "source": "https://github.com/kstkn/dadata"
+  },
+  "authors": [
+    {
+      "name": "Sergei Kasatkin"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dadata\\": "src/"
+    }
+  }
+}
